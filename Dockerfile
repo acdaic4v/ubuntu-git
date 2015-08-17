@@ -5,4 +5,5 @@ FROM ubuntu:15.04
 MAINTAINER acdaic4v <acdaic4v@sloervi.de>
 
 RUN apt-get update && apt-get install -y \
-vi git 
+git \
+vim
